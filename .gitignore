@@ -1,2 +1,3 @@
 Workspace1/.cache
 *.json
+.codelite/
