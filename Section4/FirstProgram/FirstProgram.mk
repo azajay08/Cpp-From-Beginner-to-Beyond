@@ -3,12 +3,12 @@
 ## any manual changes will be erased      
 ##
 ## Debug
-ProjectName            :=Project1
+ProjectName            :=FirstProgram
 ConfigurationName      :=Debug
 WorkspaceConfiguration :=Debug
-WorkspacePath          :=/Users/aaronjones/Code/C++/Workspaces/Workspace2
-ProjectPath            :=/Users/aaronjones/Code/C++/Workspaces/Workspace2/Project1
-IntermediateDirectory  :=../build-$(WorkspaceConfiguration)/Project1
+WorkspacePath          :=/Users/aaronjones/Code/C++/Workspaces/Section4
+ProjectPath            :=/Users/aaronjones/Code/C++/Workspaces/Section4/FirstProgram
+IntermediateDirectory  :=../build-$(WorkspaceConfiguration)/FirstProgram
 OutDir                 :=$(IntermediateDirectory)
 CurrentFileName        :=
 CurrentFilePath        :=
@@ -29,7 +29,7 @@ OutputSwitch           :=-o
 LibraryPathSwitch      :=-L
 PreprocessorSwitch     :=-D
 SourceSwitch           :=-c 
-OutputDirectory        :=/Users/aaronjones/Code/C++/Workspaces/Workspace2/build-$(WorkspaceConfiguration)/bin
+OutputDirectory        :=/Users/aaronjones/Code/C++/Workspaces/Section4/build-$(WorkspaceConfiguration)/bin
 OutputFile             :=../build-$(WorkspaceConfiguration)/bin/$(ProjectName)
 Preprocessors          :=
 ObjectSwitch           :=-o 
@@ -94,7 +94,7 @@ PreBuild:
 ## Objects
 ##
 $(IntermediateDirectory)/main.cpp$(ObjectSuffix): main.cpp $(IntermediateDirectory)/main.cpp$(DependSuffix)
-	$(CXX) $(IncludePCH) $(SourceSwitch) "/Users/aaronjones/Code/C++/Workspaces/Workspace2/Project1/main.cpp" $(CXXFLAGS) $(ObjectSwitch)$(IntermediateDirectory)/main.cpp$(ObjectSuffix) $(IncludePath)
+	$(CXX) $(IncludePCH) $(SourceSwitch) "/Users/aaronjones/Code/C++/Workspaces/Section4/FirstProgram/main.cpp" $(CXXFLAGS) $(ObjectSwitch)$(IntermediateDirectory)/main.cpp$(ObjectSuffix) $(IncludePath)
 $(IntermediateDirectory)/main.cpp$(DependSuffix): main.cpp
 	@$(CXX) $(CXXFLAGS) $(IncludePCH) $(IncludePath) -MG -MP -MT$(IntermediateDirectory)/main.cpp$(ObjectSuffix) -MF$(IntermediateDirectory)/main.cpp$(DependSuffix) -MM main.cpp
 
