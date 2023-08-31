@@ -30,7 +30,7 @@ int main()
 	
 	cout << "Price per small room: $" << price_per_small_room << endl;
 	cout << "Price per large room: $" << price_per_large_room << endl;
-	cout << "Sales tax: %" << sales_tax << endl;
+	cout << "Sales tax: " << sales_tax << endl;
 	
 	double small_room_total {small_rooms * price_per_small_room};
 	double large_room_total {large_rooms * price_per_large_room};
