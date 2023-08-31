@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <CodeLite_Workspace Name="Section7" Database="" Version="10000">
-  <Project Name="Section7_Challenge" Path="Section7_Challenge/Section7_Challenge.project" Active="No"/>
-  <Project Name="Vectors" Path="Vectors/Vectors.project" Active="Yes"/>
+  <Project Name="Section7_Challenge" Path="Section7_Challenge/Section7_Challenge.project" Active="Yes"/>
+  <Project Name="Vectors" Path="Vectors/Vectors.project" Active="No"/>
   <BuildMatrix>
     <WorkspaceConfiguration Name="Debug">
       <Environment/>
