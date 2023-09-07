@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeLite_Workspace Name="Section13" Database="" Version="10000">
+  <Project Name="Section13_Challenge" Path="Section13_Challenge/Section13_Challenge.project" Active="No"/>
+  <Project Name="First_Class" Path="First_Class/First_Class.project" Active="Yes"/>
+  <BuildMatrix>
+    <WorkspaceConfiguration Name="Debug">
+      <Environment/>
+      <Project Name="Section13_Challenge" ConfigName="Debug"/>
+      <Project Name="First_Class" ConfigName="Debug"/>
+    </WorkspaceConfiguration>
+    <WorkspaceConfiguration Name="Release">
+      <Environment/>
+      <Project Name="Section13_Challenge" ConfigName="Release"/>
+      <Project Name="First_Class" ConfigName="Release"/>
+    </WorkspaceConfiguration>
+  </BuildMatrix>
+</CodeLite_Workspace>
