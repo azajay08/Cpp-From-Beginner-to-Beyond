@@ -1,6 +1,5 @@
 #include "Dog.h"
 
-
 Dog test_dog() {
 //---- WRITE YOUR CODE BELOW THIS LINE----
 
