@@ -1,0 +1,1 @@
+../build-Debug/Section14_Challenge/Mystring.cpp.o ../build-Debug/Section14_Challenge/main.cpp.o
