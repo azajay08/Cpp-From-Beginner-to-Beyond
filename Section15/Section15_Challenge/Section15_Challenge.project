@@ -3,6 +3,12 @@
   <Description/>
   <Dependencies/>
   <VirtualDirectory Name="src">
+    <File Name="Account_Util.cpp"/>
+    <File Name="Account_Util.h"/>
+    <File Name="Savings_Account.cpp"/>
+    <File Name="Savings_Account.h"/>
+    <File Name="Account.cpp"/>
+    <File Name="Account.h"/>
     <File Name="main.cpp"/>
   </VirtualDirectory>
   <Settings Type="Executable">
