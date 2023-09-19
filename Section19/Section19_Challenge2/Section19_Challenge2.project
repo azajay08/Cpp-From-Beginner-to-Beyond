@@ -3,7 +3,7 @@
   <Description/>
   <Dependencies/>
   <VirtualDirectory Name="src">
-    <File Name="test.txt"/>
+    <File Name="responses.txt"/>
     <File Name="main.cpp"/>
   </VirtualDirectory>
   <Settings Type="Executable">
