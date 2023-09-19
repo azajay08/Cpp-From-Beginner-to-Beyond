@@ -1,17 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <CodeLite_Workspace Name="Section19" Database="" Version="10000">
   <Project Name="Section19_Challenge1" Path="Section19_Challenge1/Section19_Challenge1.project" Active="No"/>
-  <Project Name="Section19_Challenge2" Path="Section19_Challenge2/Section19_Challenge2.project" Active="Yes"/>
+  <Project Name="Section19_Challenge2" Path="Section19_Challenge2/Section19_Challenge2.project" Active="No"/>
+  <Project Name="Section19_Challenge3" Path="Section19_Challenge3/Section19_Challenge3.project" Active="Yes"/>
   <BuildMatrix>
     <WorkspaceConfiguration Name="Debug">
       <Environment/>
       <Project Name="Section19_Challenge1" ConfigName="Debug"/>
       <Project Name="Section19_Challenge2" ConfigName="Debug"/>
+      <Project Name="Section19_Challenge3" ConfigName="Debug"/>
     </WorkspaceConfiguration>
     <WorkspaceConfiguration Name="Release">
       <Environment/>
       <Project Name="Section19_Challenge1" ConfigName="Release"/>
       <Project Name="Section19_Challenge2" ConfigName="Release"/>
+      <Project Name="Section19_Challenge3" ConfigName="Release"/>
     </WorkspaceConfiguration>
   </BuildMatrix>
 </CodeLite_Workspace>
