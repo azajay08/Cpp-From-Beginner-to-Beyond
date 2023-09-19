@@ -31,7 +31,7 @@ int main()
 	
 	in_file.open(filename);
 	if (!in_file) {
-		std::cout << "Error opening file" << std::endl;
+		std::cerr << "Error opening file" << std::endl;
 		return 1;
 	}
 	std::cout << "Enter a substring to search for: ";
@@ -40,8 +40,6 @@ int main()
 		word_count++;
 		if (word_match(word_read, to_find)) {
 			match_count++;
-//			std::cout << word_read << std::endl;
-//			std::cout << to_find << std::endl;
 		}
 	}
 	std::cout << word_count << " words were searched..." << std::endl;
