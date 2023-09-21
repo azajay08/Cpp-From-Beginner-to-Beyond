@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <CodeLite_Workspace Name="Section20" Database="" Version="10000">
-  <Project Name="Section20_Challenge1" Path="Section20_Challenge1/Section20_Challenge1.project" Active="No"/>
+  <Project Name="Section20_Challenge1" Path="Section20_Challenge1/Section20_Challenge1.project" Active="Yes"/>
   <Project Name="Section20_Challenge2" Path="Section20_Challenge2/Section20_Challenge2.project" Active="No"/>
   <Project Name="Section20_Challenge3" Path="Section20_Challenge3/Section20_Challenge3.project" Active="No"/>
-  <Project Name="Section20_Challenge4" Path="Section20_Challenge4/Section20_Challenge4.project" Active="Yes"/>
+  <Project Name="Section20_Challenge4" Path="Section20_Challenge4/Section20_Challenge4.project" Active="No"/>
   <BuildMatrix>
     <WorkspaceConfiguration Name="Debug">
       <Environment/>
